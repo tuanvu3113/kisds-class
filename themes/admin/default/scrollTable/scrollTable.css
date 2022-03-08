@@ -1,0 +1,87 @@
+body{ overflow-x:hidden;}
+#data{
+	 overflow-y:auto;
+	 background:#fafafa !important; 
+	 margin-bottom:0px;
+	 position:relative;
+}
+#gridView{ 
+	 min-height:300px; 
+	 max-height:500px; 
+	 position:relative; 
+	 padding:0; 	
+	 background:#fafafa !important; 
+	 margin-top:-1px;
+}
+#tHeader{
+	position:relative; 
+	height:auto; 
+	width:98.75%;
+	overflow-x:hidden;
+}
+
+#tHeader table{
+	border:none !important;	
+}
+
+#cHeader{ 
+	width:100%; 
+	background:#fafafa;
+	position:relative;
+	border:1px solid #d1dde2;
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #e3e4e6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#e3e4e6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#e3e4e6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#e3e4e6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#e3e4e6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#e3e4e6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e3e4e6',GradientType=0 ); /* IE6-9 */
+	font-weight:300;
+}
+table{ border-collapse:collapse; table-layout:	fixed; border-color: #d1dde2;}
+
+table th{ 
+	border-style: solid;
+    border-width: 0 1px 0 0;
+    color: #525050;
+    padding: 5px;
+    text-align: center;
+	background-color: #e3e4e6;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9f9f9+0,e3e4e6+100 */
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #e3e4e6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#e3e4e6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#e3e4e6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#e3e4e6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#e3e4e6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#e3e4e6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e3e4e6',GradientType=0 ); /* IE6-9 */
+
+    border-radius: 0 !important;
+}
+table td{
+	line-height: 15px;
+	padding: 5px;
+	border: 1px solid #d1dde2;
+	white-space: normal !important;
+	word-wrap:break-word !important;
+	font-weight:300;
+}
+table th{
+	border:none ;
+	border-right:1px solid #d1dde2;
+	font-weight:300;
+}
+table th:last-child{
+	border-right:none;
+}
+.noClick{
+	pointer-events: none;
+}
+#gridView table tr:nth-child(2n) {
+    background: #eff3f5 none repeat scroll 0 0;
+    cursor: auto;
+}
+#gridView table tr:hover{
+	background: #e3f5fd !important;
+}

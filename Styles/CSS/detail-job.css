@@ -1,0 +1,205 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.job-author-img {
+    width: 10.625rem;
+    height: 10.625rem;
+    border-radius: 50%;
+    padding: 1.5625rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto -5.3125rem;
+    -webkit-box-shadow: 0 0.0625rem 0.3125rem #d0d0d0;
+    box-shadow: 0 0.0625rem 0.3125rem #d0d0d0;
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+}
+.job-detail-sidebar {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.0625rem 0.3125rem #d0d0d0;
+    box-shadow: 0 0.0625rem 0.3125rem #d0d0d0;
+    margin-bottom: -6px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.job-author-ttl {
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.45;
+    text-align: center;
+    padding: 6.3125rem 0 .875rem;
+}
+.job-detail-info .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .6875rem 0;
+    border-bottom: .0625rem solid #ebebeb;
+}
+.job-detail-info .item-img {
+    font-size: 20px;
+    color: #bbbbbb;
+    width: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.job-detail-info .item-content {
+    width: calc(100% - 1.5rem);
+    padding-left: .625rem;
+    font-size: .875rem;
+    line-height: 1.58;
+    text-align: left;
+}
+.job-detail-info .item-ttl {
+    font-weight: 400;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    margin-bottom: .125rem;
+}
+.job-detail {
+    padding: 1.25rem 0;
+    line-height: 25px;
+}
+.job-detail .btnPhoneRight{
+    width: 80% !important;
+    margin-left: 30px !important;
+}
+.job-detail span {
+    color: black !important;
+}
+.detail-bg {
+    width: 70% !important;
+}
+
+.post-content {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.0625rem 0.3125rem #d0d0d0;
+    box-shadow: 0 0.0625rem 0.3125rem #d0d0d0;
+    font-size: .875rem;
+    line-height: 2;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+}
+
+.job-info {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.0625rem 0.3125rem #d0d0d0;
+    box-shadow: 0 0.0625rem 0.3125rem #d0d0d0;
+    padding: 1.5rem 0 1.625rem;
+    position: relative;
+    z-index: 2;
+}
+
+.job-info-ttl {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #11be52;
+    margin-bottom: .625rem;
+}
+
+.job-info-stl {
+    font-weight: 400;
+    color: #888888;
+    font-size: 1rem;
+    line-height: 1.875;
+    margin-bottom: .5625rem;
+}
+.job-info-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -1.75rem;
+    color: #888888;
+}
+.job-info-list ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px !important;
+    font-weight: 100;
+}
+/*SHOW MOBIE chieu ngang*/
+@media (max-width: 900px){
+    .post-content{
+        padding-left: 5% !important;
+    }
+    .post-content img{
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .search-container{
+        padding-top: 30% !important;
+    }
+    .job-detail .btnPhoneRight {
+        width: 42% !important;
+        margin-left: 29% !important;
+    }
+    .body_bg.body_blur {
+        background: white !important;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    }
+    .detail-bg {
+        width: 100% !important;
+    }
+    .col-company{
+        margin-top: 20px !important;
+    }
+}
+/*SHOW MOBIE chieu doc*/
+@media screen and (max-width: 600px) {
+    .post-content{
+        padding-left: 5% !important;
+    }
+    .post-content img{
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .search-container{
+        padding-top: 30% !important;
+    }
+    .job-detail .btnPhoneRight {
+        width: 78% !important;
+        margin-left: 11% !important;
+    }
+    .body_bg.body_blur {
+        background: white !important;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    }
+    .detail-bg {
+        width: 100% !important;
+    }
+    .col-company{
+        margin-top: 20px !important;
+    }
+}
+.btnPhoneRight {
+    width: 50% !important;
+}

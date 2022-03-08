@@ -1,0 +1,288 @@
+
+#top-main{
+	background:url(images/menu-bg.png) top left repeat-x;
+	text-align:left;
+}
+
+#divone ul.clickMenu li:hover a{
+	//
+	cursor:default;
+	/**/
+}
+
+#divone ul.clickMenu li:hover a span{
+	background:url(images/hovermenu.png) repeat-x;
+	/**/
+}
+
+#divone ul#click li:hover a{
+	background:url(images/menu-bg-click-r.png) right top no-repeat;
+	color:#141414;
+	//background:#f0f;
+}
+
+#divone ul#click li:hover a span{
+	background:url(images/menu-bg-click.png) left top repeat-x;
+}
+
+#divone ul#click li:hover ul li:hover{
+	background:url(images/bg-menu-item-left.jpg) left top repeat-x;
+}
+
+#divone ul#click li:hover ul li:hover a{
+	background:url(images/bg-menu-item-right.jpg) right top no-repeat;
+}
+
+#divone ul#click li:hover ul li a{
+	background:none;
+	color:#141414;
+}
+
+#divone ul#click li:hover ul li a span{
+	background:none;
+}
+
+.pagination{
+	height:19px;
+	line-height:19px;
+	padding:10px;
+	text-align:center;
+	font-size:13px;
+}
+
+.pagination div{
+	float:left;
+}
+
+.pagination .button2-right{
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.pagination .button2-right a{
+	color:#00F;
+	text-decoration:none;
+}
+
+.pagination .button2-right a:hover{
+	color:#F00;
+}
+
+.pagination .button2-left{
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.pagination .button2-left .page a,
+.pagination .button2-left .page span{
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.pagination .button2-left .page span{
+	color:#F00;
+}
+
+.pagination .button2-left a{
+	color:#00F;
+	text-decoration:none;
+}
+
+.pagination .button2-left a:hover{
+	color:#F00;
+}
+
+.pagination .button2-right .start span{
+	background:url(images/button-start-off.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-right .start a{
+	background:url(images/button-start.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-right .start a:hover{
+	background:url(images/button-start-over.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-right .prev span{
+	background:url(images/button-prev-off.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-right .prev a{
+	background:url(images/button-prev.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-right .prev a:hover{
+	background:url(images/button-prev-over.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+
+.pagination .button2-left .end span{
+	background:url(images/button-end-off.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-left .end a{
+	background:url(images/button-end.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-left .end a:hover{
+	background:url(images/button-end-over.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+
+.pagination .button2-left .next span{
+	background:url(images/button-next-off.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-left .next a{
+	background:url(images/button-next.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+.pagination .button2-left .next a:hover{
+	background:url(images/button-next-over.png);
+	height:19px;
+	width:18px;
+	display:block;
+}
+
+#main-layout-south {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(center top , #F3F7FD 0%, #C8DDF7 24%, #B3D0F5 43%, #B3D0F5 66%, #C8DCF7 100%) repeat scroll 0 0 transparent;
+    border-color: #567DB0 -moz-use-text-color -moz-use-text-color;
+    border-right: medium none;
+    border-style: solid none none;
+    border-width: 1px medium medium;
+    font-size: 8pt;
+    height: 21px;
+    line-height: 21px;
+    overflow: visible;
+    padding: 0;
+	font-weight:normal;
+}
+#main-layout-south #copyright {
+    background: url("images/bg-sep.png") no-repeat scroll right center transparent;
+    cursor: default;
+    float: left;
+    padding: 0 10px;
+}
+#main-layout-south #time {
+    background: url("images/bg-sep.png") no-repeat scroll right center transparent;
+    cursor: default;
+    float: left;
+    padding: 0 10px;
+}
+#main-layout-south #version {
+    background: url("images/bg-sep.png") no-repeat scroll right center transparent;
+    cursor: default;
+    float: left;
+    padding: 0 10px;
+}
+#main-layout-south #center {
+    float: left;
+	text-align:center;
+	color:#FF0000;
+}
+#main-layout-south #account {
+    background: url("images/bg-sep.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    padding: 0 10px;
+}
+#main-layout-south #account {
+    background: url("images/bg-sep.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    padding: 0 0 0 2px;
+}
+#main-layout-south #account span#bg {
+    display: inline-block;
+    height: 20px;
+    padding: 0 10px;
+}
+#main-layout-south #account.hover span#bg {
+    background: -moz-linear-gradient(center top , #FFFFFD 0%, #FFEA9A 29%, #FFDB53 33%, #FFEBA0 100%) repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 20px;
+    padding: 0 10px;
+}
+#main-layout-south #account span#icon {
+    background: url("images/user.png") no-repeat scroll left center transparent;
+    padding-left: 19px;
+}
+
+#menu-main{
+	float:left;
+}
+
+#header #button {
+	margin-top:5px;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    padding-top: 1px;
+    text-align: right;
+    width: 10%;
+}
+#header #button .close {
+    border: medium none;
+    display: inline-block;
+    height: 19px;
+    margin-right: 1px;
+    padding: 0;
+    width: 35px;
+}
+#header #button .close:hover {
+    background: url("images/bg-button-close.png") repeat scroll left top transparent;
+    border: medium none;
+    display: inline-block;
+    height: 19px;
+    padding: 0;
+    width: 35px;
+}
+#header #button .close span {
+    background: url("images/button-close.png") repeat scroll left top transparent;
+    border: medium none;
+    display: inline-block;
+    height: 19px;
+    padding: 0;
+    width: 35px;
+}

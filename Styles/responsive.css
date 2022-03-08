@@ -1,0 +1,1067 @@
+/*---------------------Máy tính bàn-----------------------------*/
+@media only screen and (min-width : 1200px){
+
+
+}
+/*---------------------Máy tính bảng ngang-----------------------------*/
+/*@media only screen and (min-width : 960px) and (max-width : 1199px){*/
+@media only screen and (min-width : 992px) and (max-width : 1200px)
+{
+nav
+{
+    margin: 22px 0 0 10px;
+}
+nav .menu_item2,
+nav .menu_item
+{
+	margin: 0 12px 0 0;
+}
+.about_menu_bg {
+    /*float: left;*/
+    display: inline-block;
+    width: 160px;
+    height: 432px;
+    padding-top: 28px;
+}
+.about_menu_item {
+    width: 160px;
+    height: 38px;
+    font-size: 11px;
+}
+.about_menu_item:hover span,
+.about_menu_item.selected span{
+    width: 25px;
+}
+.about_content_bg
+{
+    height: 432px;
+    padding: 25px 22px 0 22px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.about_title {
+    font-size: 25px;
+}
+.about_image_bg {
+    height: 432px;
+}
+.about_image_item .about_image{
+    height: 100%;
+    width: 100%;
+    bottom: auto;
+}
+.virtual_tour_btn_bg {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 138px;
+}
+.project_page_bg{
+    background: #fff;
+}
+.project_right_bg {
+    /*position: absolute;*/
+    height: 100%;
+    right: 0;
+}
+.project_menu_bg {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 26px 0 28px 0;
+    bottom: auto;
+
+    /*position: absolute;*/
+}
+.project_menu_item {
+    padding: 3px 18px 3px 18px;
+    margin:0 2px 5px 2px;
+    font-size: 11px;
+}
+.project_content_bg
+{
+    position: relative;
+    height: auto;
+    padding: 28px 35px 0 25px;
+    font-size: 11px;
+}
+.project_content ul {
+    line-height: 20px;
+}
+.project_title {
+    margin-bottom: 36px;
+    font-size: 24px;
+}
+.project_title::after
+ {
+    top: 38px;
+}
+.project_left_bg {
+    position: relative;
+    float: left;
+    height: auto;
+}
+.project_slider .nivoSlider{
+    position: relative;
+    background: #fff;
+    top: 0;
+}
+.project_slider img {
+    /*width: 100%;*/
+    position: relative;
+    padding: 0;
+    bottom: 0 !important;
+}
+.utilities_page {
+    height: auto;
+}
+.theme-default .nivo-caption {
+    height: auto;
+}
+.news_title {
+    margin-top: 62px;
+}
+.news_bg {
+    margin-top: 36px;
+    margin-bottom: 62px;
+}
+.news_title.video_title {
+    margin-top:62px;
+}
+.video_bg {
+    margin-top: 58px;
+    margin-bottom: 72px;
+}
+.contact_bg {
+    top: 48%;
+    padding-top: 0 !important;
+}
+
+}
+/*---------------------Máy tính bảng dọc--------------------------------*/
+/*@media only screen and (min-width : 768px) and (max-width : 959px){*/
+@media only screen and (min-width : 768px) and (max-width : 992px)
+{
+.page_btn_bg {
+    right: 0;
+    top: auto;
+    bottom:5px;
+    z-index: 1999;
+}
+.lang_menu_bg
+{
+    float: left;
+    margin: 22px 0 0 16px;
+}
+.menu_btn
+{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width:40px;
+	height:36px;
+	background:rgba(0,0,37, 0.8);
+    z-index: 399;
+}
+.main_menu {
+    position: fixed;
+    width: 200px;
+    /*background:rgba(0,0,37, 0.8);*/
+    right: -200px;
+    top: 56px;
+    z-index: 189;
+}
+nav .menu_item2,
+nav .menu_item {
+    float: right;
+    text-align: right;
+    /*width: 100%;*/
+    margin: 12px 22px 12px 0;
+    height: 18px;
+}
+.menu_border {
+    float: right;
+    width: 60%;
+}
+.white_bg .menu_item2,
+.white_bg .menu_item,
+.white_bg nav a:hover, .white_bg nav a.selected
+{
+    color: #fff;
+    text-shadow: 0 0 1px rgba(255,255,255,0.6);
+}
+.white_bg .cl-effect-4 a::after {
+    background:rgba(255,255,255,0.8);
+}
+nav span {
+    display: block;
+    float: right;
+    width: 100%;
+}
+.home_page_bg {
+    height:50vh !important;
+}
+.about_left_bg {
+    display: block;
+    float: left;
+    height: 398px;
+}
+.about_menu_bg {
+    display: inline-block;
+    width: 210px;
+    padding-top: 25px;
+}
+.about_content_bg
+{
+    display: inline-block;
+    height: auto;
+    padding: 28px 42px 0 25px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.about_right_bg {
+    float: left;
+    height: auto;
+}
+.about_image_item .about_image{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: auto;
+    bottom: auto;
+}
+.virtual_tour_btn_bg {
+    position: relative;
+    float: left;
+}
+.project_right_bg {
+    height: auto;
+}
+.project_content_bg
+{
+    height: auto;
+    padding: 38px 35px 0 35px !important;
+}
+.project_left_bg {
+    height: auto;
+}
+.project_menu_bg {
+    position: relative;
+    float: left;
+    width: 100%;
+    /*height: 138px;*/
+    bottom: auto;
+    padding: 36px 0 28px 0;
+}
+.utilities_page {
+    height: auto;
+}
+.caption_info_bg {
+    width: 500px;
+    padding: 12px 18px 15px 18px;
+}
+.caption_title {
+    top: -23px;
+    font-size: 28px;
+}
+.caption_info {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 18px;
+}
+.theme-default .nivo-caption {
+    height: auto;
+}
+.pagenews_bg.news{
+    padding-bottom: 126px;
+}
+.news_title {
+    margin-top: 52px;
+}
+.news_bg {
+    margin-top: 26px;
+    margin-bottom: 52px;
+}
+.news_item {
+    height: 176px;
+}
+.news_title.video_title {
+    margin-top:52px;
+}
+.news_item_info {
+    padding: 0;
+}
+.news_item_title {
+    margin: 8px 0 26px 0;
+}
+.video_bg {
+    margin-top: 48px;
+    margin-bottom: 62px;
+}
+.contact_page_bg {
+    height: auto;
+}
+.contact_bg {
+    position: relative;
+    top: auto;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    padding: 56px 0 86px 0;
+}
+.contact_txt_bg {
+    width: 49.5%;
+}
+.contact_txt_bg_right {
+    float: right;
+}
+.map_bg {
+    height: 366px;
+}
+#map_contact_canvas {
+    height: 360px;
+}
+}
+/*----------------------Điện thoại di động-------------------------------*/
+/*@media only screen and (max-width : 767px)	{*/
+@media only screen and (max-width : 767px)	{
+header {
+    overflow: visible;
+}
+.page_btn_bg {
+    right: 0;
+    top: auto;
+    bottom:5px;
+    z-index: 1999;
+}
+.lang_menu_bg
+{
+    float: left;
+    margin: 22px 0 0 8px;
+}
+.menu_btn
+{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width:40px;
+	height:36px;
+	background:rgba(0,0,37, 0.8);
+    z-index: 399;
+}
+.main_menu {
+    position: fixed;
+    width: 200px;
+    /*background:rgba(0,0,37, 0.8);*/
+    right: -200px;
+    top: 56px;
+    z-index: 91999;
+}
+nav .menu_item2,
+nav .menu_item {
+    float: right;
+    text-align: right;
+    /*width: 100%;*/
+    margin: 12px 26px 12px 0;
+    height: 18px;
+}
+.menu_border {
+    float: right;
+    width: 60%;
+}
+.white_bg .menu_item2,
+.white_bg .menu_item,
+.white_bg nav a:hover, .white_bg nav a.selected
+{
+    color: #fff;
+    text-shadow: 0 0 1px rgba(255,255,255,0.6);
+}
+.white_bg .cl-effect-4 a::after {
+    background:rgba(255,255,255,0.8);
+}
+nav span {
+    display: block;
+    float: right;
+    width: 100%;
+}
+.home_page_bg {
+    height:60vh !important;
+}
+.home_content_bg {
+    width: 96%;
+    height: 65px;
+    top: 42%;
+    left: 0;
+    right: 0;
+}
+.home_title
+{
+    font-size: 18px;
+    line-height: 23px;
+}
+.reg_button {
+    width: 166px;
+    height: 52px;
+    margin-top: 50px;
+
+}
+.reg_button:hover::after,
+.reg_button:hover::before
+{
+    width: 166px;
+    height: 52px;
+}
+.reg_button span:first-child {
+    font-size: 14px;
+    margin-top: 6px;
+}
+.reg_button span:last-child {
+    font-size: 11px;
+    margin-top: 0;
+}
+.about_left_bg {
+    display: block;
+    float: left;
+    height: auto;
+}
+.about_menu_bg {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 18px;
+    border: none;
+}
+.about_menu_item {
+    float: left;
+    width: auto;
+    height: 22px;
+    margin: 0 10px 12px 6px;
+}
+.about_menu_item:hover,
+.about_menu_item.active{
+    border-bottom: 1px solid #a58a66;
+}
+.about_menu_item span{
+    display: none;
+}
+.about_content_bg
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px 6px 32px 6px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.about_title {
+    font-size: 22px;
+}
+.about_right_bg {
+    float: left;
+    height: auto;
+}
+.about_image_item .about_image{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: auto;
+    bottom: auto;
+}
+.virtual_tour_btn_bg {
+    position: relative;
+    float: left;
+    height: 100px;
+}
+.virtual_tour_btn {
+    padding: 15px 5px;
+}
+.project_right_bg {
+    height: auto;
+}
+.project_content_bg
+{
+    height: auto;
+    font-size: 11px;
+    padding: 22px 20px 0 20px !important;
+}
+.project_title {
+    margin-bottom: 36px;
+    font-size: 22px;
+}
+.project_title::after
+ {
+    top: 38px;
+}
+.project_left_bg {
+    height: auto;
+}
+.project_menu_bg {
+    position: relative;
+    float: left;
+    width: 100%;
+    /*height: 138px;*/
+    bottom: auto;
+    padding: 22px 0 28px 0;
+}
+.project_menu_item {
+    padding: 3px 8px 3px 8px;
+    margin:0 2px 5px 2px;
+    font-size: 11px;
+}
+.utilities_page {
+    height: auto;
+    background: #000025;
+}
+.caption_info_bg {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 12px 18px 15px 18px;
+}
+.caption_title {
+    top: -18px;
+    font-size: 19px;
+}
+.caption_info {
+    font-size: 11px;
+    text-align: left;
+    line-height: 16px;
+}
+.theme-default .nivo-controlNav {
+	bottom: auto;
+    top: 12px;
+    right: 8px;
+}
+.theme-default .nivo-caption {
+    height: auto;
+    position: relative;
+    background: #000025;
+}
+.pagenews_bg.news{
+    padding-bottom: 146px;
+}
+.news_page_bg {
+    height: auto;
+}
+.news_page_bg::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    background: url(../uploads/Bg/news_mask.png);
+}
+.news_title {
+    margin-top: 32px;
+    font-size: 25px;
+}
+.news_bg {
+    margin-top: 16px;
+    margin-bottom: 42px;
+}
+.news_item {
+    height: 146px;
+}
+.news_title.video_title {
+    margin-top:32px;
+    font-size: 25px;
+}
+.news_item_info {
+    padding: 0;
+}
+.news_item_title {
+    margin: 8px 0 26px 0;
+}
+.video_bg {
+    margin-top: 28px;
+    margin-bottom: 22px;
+    padding: 0 6px;
+}
+.video_item_bg {
+    margin-bottom: 22px;
+}
+.contact_page_bg {
+    height: auto !important;
+    background-attachment: fixed;
+}
+.contact_bg {
+    position: relative;
+    top: auto;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    padding:36px 0 66px 0;
+}
+/*.contact_txt_bg {
+    width: 49.5%;
+}
+.contact_txt_bg_right {
+    float: right;
+}*/
+.map_bg {
+    height: 366px;
+}
+#map_contact_canvas {
+    height: 360px;
+}
+.footer_copyright_bg {
+    font-size: 8px;
+}
+/*.home_logo_bg {
+    width: 110px;
+    height:78px;
+    z-index: 99;
+    /*right: auto;!1!
+}
+.menu_bg
+{
+    position: fixed;
+    /*bottom: auto;
+    top: 0;!1!
+    background:rgba(2,54,81,1);
+}
+.menu_btn
+{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width:40px;
+	height:36px;
+	background:rgba(1,29,44,.8);
+    z-index: 399;
+}
+.mobile_hotline {
+    position: absolute;
+    height: 20px;
+    left: 70px;
+    top: 16px;
+    padding: 0 0 0 26px;
+    line-height: 22px;
+    font-size: 18px;
+    color: #d1aa66;
+    background: url(../Images/Icons/call.png) no-repeat left center;
+}
+.lang_menu_bg
+{
+    right: -100%;
+}
+header .lang_menu_bg
+{
+    position: fixed;
+    right: 19px;
+    /*left: 19px;
+    right: auto;!1!
+    bottom: 19px;
+    top: auto;
+    z-index: 299;
+}
+.main_menu {
+    position: fixed;
+    width: 56%;
+    /*height: 100%;!1!
+    background:rgba(2,54,81,.96);
+    background: url(../uploads/Bg/location_bg.jpg);
+    left: -56%;
+    /*right: 0;
+    margin: 0 auto;
+    padding: 0;!1!
+    /*top: 0;!1!
+    bottom: 52px;
+    z-index: 189;
+}
+.header_logo {
+    position: absolute;
+    width: 88px;
+    height: 72px;
+    top: 16px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0;
+    background: url(../Images/LoadingLogo.png) no-repeat;
+    background-size: cover;
+    /*display: none;!1!
+}
+nav .menu_item {
+    width: 100%;
+    /*margin: 6px 5px 6px 5px;!1!
+    margin: 8px 0 8px 0;
+    height: 18px;
+}
+.menu_item:nth-child(2)
+{
+    margin-top: 106px;
+    /*margin-top: 26px;!1!
+}
+.menu_item:last-child
+{
+    margin-bottom:24px;
+}
+.home_page_bg
+{
+    /*background-image: none;
+    background: #023651;!1!
+    background: url(../uploads/Bg/location_bg.jpg);
+}
+.home_background {
+    float: left;
+    width: 120%;
+    height: auto;
+}
+.home_content_bg {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    padding: 28px 30px;
+    text-align: center;
+    color: #fff;
+    top: auto;
+    right: auto;
+}
+.home_title
+{
+    width: 100%;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.6);
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 36px;
+}
+.home_sub_title
+{
+    text-align: center;
+    margin-top: 12px;
+}
+.home_content
+{
+    color: #fff;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 38px;
+}
+.overview_page_bg {
+    background: url(../uploads/Bg/location_bg.jpg);
+}
+.overview_background {
+    float: left;
+    width: 120%;
+    margin-left: -20%;
+    height: auto;
+}
+.overview_content_bg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 28px 26px;
+    text-align: center;
+    color: #fff;
+    top: auto;
+    right: auto;
+    font-size: 15px;
+}
+.overview_content_border {
+    position: relative;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    margin-bottom: 8px;
+}
+.overview_title {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+}
+.location_background_img {
+    max-height: 238px;
+    overflow: hidden;
+}
+.location_content_bg {
+    height: 426px;
+}
+.location_content_border {
+    margin: 0 6% 0 6%;
+    width: 88%;
+    top:38px;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.location_item_info
+{
+    width: 88%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.location_item {
+    width: 100%;
+    margin-right: 5%;
+    margin-top: 15px;
+}
+.links_content_bg {
+    height: 186px;
+}
+.links_content_border {
+    margin: 0 6% 0 6%;
+    width: 88%;
+    top:38px;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    text-align: center;
+}
+.links_title {
+    text-align: center;
+}
+.links_info {
+    margin-top: -6px;
+}
+.links_background_img {
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+.facilities_info
+{
+    width: 100%;
+    margin-bottom:30px;
+    margin-top: -3px;
+}
+.facilities_item
+{
+    position: relative;
+    border: 1px solid rgba(2, 54, 81, 0.6);
+    padding: 5px;
+    overflow: hidden;
+    width: 100%;
+    height:200px;
+}
+.facilities_item img.square
+{
+    width: 100%;
+    height: auto;
+}
+.floorplan_background
+{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.floorplan_title_bg
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 2px 16px 0 16px;
+    height: 68px;
+    background: rgba(2, 54, 81, 1);
+}
+.floorplan_title
+{
+    font-size:32px;
+    line-height:68px;
+}
+.villas_content {
+    width: 100%;
+    padding: 0 25px;
+    font-size: 15px;
+    line-height: 22px;
+}
+.page_align_center
+{
+    position: relative;
+    top:0;
+    left: 0;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.villas_info
+{
+    margin-top:8px;
+    margin-bottom: 32px;
+    width: 98%;
+}
+.villas_item_bg {
+    margin-top: 22px;
+}
+.villas_mask {
+    top: 0;
+}
+.villas_item_info
+{
+    top: auto;
+    bottom: 15px;
+}
+.roadmap_title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 32px;
+    margin-bottom: 28px;
+}
+.roadmap_tab_item_content_bg
+{
+    margin: 22px 0 28px 0;
+    padding: 0 15px;
+}
+.roadmap_tab_item_title
+{
+    float: left;
+    /*width: 100%;!1!
+    margin:5px 0 18px 0;
+    color: #fff;
+    padding-left: 36px;
+    padding-top: 1px;
+    background:url(../uploads/Roadmap/roadmap_calendar_m.png) no-repeat left center;
+}
+.tab_title
+{
+    font-size: 19px;
+    margin-bottom: 0;
+}
+.tab_sub_title
+{
+    font-size: 15px;
+}
+.roadmap_tab_item_content
+{
+    font-size: 16px;
+    line-height: 22px;
+}
+.gallery_title {
+    margin-top: 42px;
+    margin-bottom: 30px;
+    font-size: 33px;
+}
+.gallery_info {
+    margin: 28px 0 26px 0;
+}
+.gallery_group {
+    padding: 0;
+}
+.viewmap_btn {
+    right: 16px;
+}
+.page_align_center.contact {
+    top:0;
+}
+.contact_title {
+    margin-top: 48px;
+}
+.contact_form_bg {
+    padding-right: 15px;
+}
+.contact_txt_bg
+{
+    width:100%;
+}
+.contact_txta_bg
+{
+	height:120px;
+}
+.contact_txta
+{
+    height:112px;
+}
+#content_error_mes .valid_icon, #content_error_mes .invalid_icon
+{
+    top: 116px;
+}
+.partner_title_bg{
+	height:46px;
+	font-size:16px;
+	margin-right:22px;
+}
+.partner_line
+{
+    margin-right:18px;
+}
+.partner_bg img{
+	max-width:142px;
+	max-height:32px;
+    margin-top:8px;
+}
+
+}
+@media only screen and (max-width : 374px)
+{
+.mobile_hotline {
+    left: 62px;
+    padding: 0 0 0 26px;
+    font-size: 16px;
+    line-height: 21px;
+}
+.home_title {
+    font-size: 32px;
+}
+.location_content_bg {
+    height: 446px;
+}
+.location_item_info
+{
+    width: 100%;
+}
+.location_item {
+    width: 100%;
+}
+.links_content_bg {
+    height: 208px;
+}
+.facilities_item
+{
+    height:180px;
+}
+.villas_item_title
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.villas_item_content
+{
+    font-size: 14px;
+    line-height: 16px;
+}
+.contact_form_title, .contact_info_item_content {
+    line-height: 19px;
+}
+.contact_info_item_content span{
+    line-height: 22px;
+}
+.partner_title_bg{
+	height:42px;
+	font-size:15px;
+	margin-right:18px;
+}
+.partner_line
+{
+    margin-right:16px;
+}
+.partner_bg img{
+	max-width:106px;
+	max-height:32px;
+    margin-top:12px;
+}*/
+
+}

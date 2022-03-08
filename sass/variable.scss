@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pacifico');
+
+$font-primary : 'Open Sans', sans-serif;
+$font-secondary : 'Pacifico', cursive;
+$font-tertiary : '', sans-serif;
+$font-heading : $font-secondary;
+$font-icon: FontAwesome;
+$font-sas: 'sas-webfont';
+
+
+$black: #222222;
+$white: #ffffff;
+
+// Global
+$color-body: #999999;
+$color-primary: #FD4D40;
+$color-secondary: #F1C22E;
+$color-tertiary: #16C3B0;
+$color-quaternary: #2DB3D9;
+$body-bg: #fff;
+$font-body: $font-primary;
+
+/* -------------------- 
+TOPBAR SETTING
+-----------------------*/
+$topbar-bg: $color-secondary;
+$topbar-color: $white;
+$topbar-nav-color: $white;
+$topbar-nav-hover-color: $white;
+$topbar-font: $font-primary;
+
+/* -------------------- 
+NAVBAR SETTING
+-----------------------*/
+$navbar-bg: $white;
+$navbar-font: $font-primary;
+$navbar-color: $black;
+$navbar-hover-color: $color-primary;
+$navbar-active-color: $white;
+$navbar-stiky-color: $color-primary;
+
+/* -------------------- 
+FOOTER SETTING
+-----------------------*/
+$footer-bg: $color-secondary;
+$footer-font-color: $white;
+
+/* -------------------- 
+BUTTON SETTING
+-----------------------*/
+$btn-primary-hover: darken($color-secondary, 10%);
+$btn-secondary-hover: darken($color-primary, 10%);
+
+
+// Background
+$bg__topbar: $color-primary;
+
+.bolder{
+	font-weight: 600;
+}
+
+.cfix{
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+@import "mixin.scss";

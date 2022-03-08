@@ -1,0 +1,149 @@
+.menuright {
+	display: block;
+	margin-bottom:-55px;
+} 
+.menu-button-left{
+	color:#fff;
+	margin-top:20px;
+	margin-left:10px;
+	cursor:pointer;	
+	position: fixed;
+	z-index:999999999999999999999;
+	
+} 
+.menu-button-left{
+	display:none;
+}
+.menu-left{
+	display:none;
+	margin-top: 50px;
+	min-width:100px;
+	height:100%;
+	background-color:#fff;
+	position: fixed;
+	z-index:999999999999999999999;
+	padding:0;
+	overflow-y: scroll;
+
+	
+	
+}
+.menu-left .acctive{
+	/*background:#3883cc url(drop-down-icon1.png) no-repeat 2px 50%;*/
+	
+}
+dl{
+	min-width:250px;
+}
+.menu-left-parent{
+	background:#2ED1DC  no-repeat 2px 50%;
+	cursor:pointer;	
+	padding-right: 15px;
+	padding-left: 15px;
+	overflow-x: visible;
+	-webkit-overflow-scrolling: touch;
+	border-top: 1px solid transparent;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+.notlink{
+	font-weight:bold;
+}
+.notlink:link {
+    text-decoration: none;
+}
+
+.notlink:visited {
+    text-decoration: none;
+}
+
+.notlink:hover {
+    text-decoration: none;
+}
+
+.notlink:active {
+    text-decoration: none;
+}
+dt{ 
+	border-bottom:1px solid #FFFFFF;
+	font-size:14px;
+	padding:5px 20px;
+	position:relative
+}
+dt a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+dd a{
+	color:#000000;
+	cursor:pointer;	
+}
+ul{
+	list-style:none;
+	padding:5px 0px 0px 30px ;
+}
+.col-md-4 { 
+	margin-bottom:8px;
+}
+label{
+	 white-space:nowrap !important;
+}
+@media (min-width: 600px) and (max-width:1200px) { 
+	.col-md-4 {
+		width: 50%;
+		float:left; 
+		margin-bottom:5px;
+	}
+}
+
+@media (min-width: 0px) and (max-width:900px) {   
+	.menuright {
+		display: none; 
+	}
+	.account-info-menu {
+		display: none !important; 
+	}
+	.menu-row {
+		display: none;
+	} 
+	.img-responsive{
+		width : 70%;
+	}
+	.menu-left dt{
+		display:block;
+	}
+	.menu-button-left{
+		display:block;
+	}
+	.button-group .button{
+	width: 97%; /* Overlap each right button border */	
+	
+	}
+	.button-group li{
+		padding-top:3px;
+	}
+	#search, #export, #refresh, #btnAdd, #btnDelete, #btnEdit, #fundlock {
+	width: 33.333333%;  }
+	#datepay{width:100%;}
+	
+}
+/*Dien thoai di dong the hien chieu ngang*/
+@media screen and (max-device-width: 1024px) and (min-device-width : 480px){
+    .col-md-4{ width: 50%;}
+	
+}
+/*Dien thoai di dong hien thi chieu doc*/
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+	.col-md-4{ width: 100%;}
+	.box-header {height:70px;}
+	.content form clearfix{
+	  width: 80%;
+	  
+	}
+	.button-group{width:93%;}	
+	
+}
+
+@media screen and (max-width: 1024px){
+	gridview{ width: 50%}
+}

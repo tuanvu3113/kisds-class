@@ -1,0 +1,122 @@
+/* S Font */
+@font-face {
+    font-family: 'ff1';
+    src:url(../fonts/roboto/f1Roboto-Black.ttf);
+}
+.ff1{
+    font-family:ff1 !important;	
+}
+@font-face {
+    font-family: 'ff2';
+    src:url(../fonts/roboto/f2Roboto-BlackItalic.ttf);
+}
+.ff2{
+    font-family:ff2 !important;	
+}
+@font-face {
+    font-family: 'ff3';
+    src:url(../fonts/roboto/f3Roboto-Bold.ttf);
+}
+.ff3{
+    font-family:ff3 !important;	
+}
+@font-face {
+    font-family: 'ff4';
+    src:url(../fonts/roboto/f4Roboto-BoldCondensed.ttf);
+}
+.ff4{
+    font-family:ff4 !important;	
+}
+@font-face {
+    font-family: 'ff5';
+    src:url(../fonts/roboto/f5Roboto-BoldCondensedItalic.ttf);
+}
+.ff5{
+    font-family:ff5 !important;	
+}
+@font-face {
+    font-family: 'ff6';
+    src:url(../fonts/roboto/f6Roboto-BoldItalic.ttf);
+}
+.ff6{
+    font-family:ff6 !important;	
+}
+@font-face {
+    font-family: 'ff7';
+    src:url(../fonts/roboto/f7Roboto-CondensedItalic.ttf);
+}
+.ff7{
+    font-family:ff7 !important;	
+}
+@font-face {
+    font-family: 'ff8';
+    src:url(../fonts/roboto/f8Roboto-Italic.ttf);
+}
+.ff8{
+    font-family:ff8 !important;	
+}
+@font-face {
+    font-family: 'ff9';
+    src:url('../fonts/roboto/f9Roboto-Light-webfont.eot'), 
+        url('../fonts/roboto/f9Roboto-Light-webfont.woff') format('woff'),
+        url('../fonts/roboto/f9Roboto-Light.ttf') format('truetype');
+}
+.ff9{
+    font-family:ff9 !important;
+}
+@font-face {
+    font-family: 'ff10';
+    src:url(../fonts/roboto/f10Roboto-LightItalic.ttf);
+}
+.ff10{
+    font-family:ff10 !important;	
+}
+@font-face {
+    font-family: 'ff11';
+    src: url('../fonts/roboto/f11Roboto-Medium-webfont.eot'),
+        url('../fonts/roboto/f11Roboto-Medium-webfont.woff') format('woff'),
+        url('../fonts/roboto/f11Roboto-Medium.ttf') format('truetype');
+}
+.ff11{
+    font-family:ff11 !important;	
+}
+@font-face {
+    font-family: 'ff12';
+    src:url(../fonts/roboto/f12Roboto-MediumItalic.ttf);
+}
+.ff12{
+    font-family:ff12 !important;	
+}
+@font-face {
+    font-family: 'ff13';
+    src: url('../fonts/roboto/f13Roboto-Regular-webfont.eot'),
+        url('../fonts/roboto/f13Roboto-Regular-webfont') format('woff'),
+        url('../fonts/roboto/f13Roboto-Regular.ttf') format('truetype');
+}
+.ff13{
+    font-family:ff13 !important;	
+}
+@font-face {
+    font-family: 'ff14'; 
+    src: url('../fonts/roboto/f14Roboto-Thin-webfont.eot'),
+        url('../fonts/roboto/f14Roboto-Thin-webfont.woff') format('woff'),
+        url('../fonts/roboto/f14Roboto-Thin.ttf') format('truetype');
+}
+.ff14{
+    font-family:ff14 !important;	
+}
+@font-face {
+    font-family: 'ff15';
+    src:url(../fonts/roboto/f15Roboto-ThinItalic.ttf);
+}
+.ff15{
+    font-family:ff15 !important;	
+}
+@font-face {
+    font-family: 'ff16';
+    src:url(../fonts/roboto/f16Roboto-Condensed.ttf);
+}
+.ff16{
+    font-family:ff16 !important;	
+}
+/* E font */

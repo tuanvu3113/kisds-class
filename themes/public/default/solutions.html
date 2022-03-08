@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="greystonevn.com" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <title>Greystone Data Technology</title>
+        <link rel="shortcut icon" type="image/ico" href='img/favicon.ico' />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" />
+        <link href="css/animate.min.css" rel="stylesheet" />
+        <link href="css/owl.carousel.css" rel="stylesheet" />
+        <link href="css/owl.transitions.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+        <link href="css/responsive.css" rel="stylesheet" />
+        <link href="css/font.css" rel="stylesheet" />
+
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.json.js"></script>
+
+        <script src="highcharts/js/highcharts.js"></script>
+        <script src="highcharts/js/modules/exporting.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('#container').highcharts({
+                    chart: {
+                        type: 'line'
+                    },
+                    title: {
+                        text: 'Productivity'
+                    },
+                    /*subtitle: {
+                     text: 'Source: WorldClimate.com'
+                     },*/
+                    xAxis: {
+                        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'App'
+                        }
+                    },
+                    plotOptions: {
+                        line: {
+                            dataLabels: {
+                                enabled: true
+                            },
+                            enableMouseTracking: false
+                        }
+                    },
+                    series: [{
+                            name: 'Android',
+                            data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+                        }, {
+                            name: 'iOS',
+                            data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+                        }]
+                });
+            });
+        </script>
+        <style>
+            .highcharts-button{
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <section class="wapper">
+                <header class="menu">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <figure class="logo">
+                                    <ul class="">
+                                        <li>
+                                            <img src="img/logo.png" alt="logo" title="greystone" width="45" height="58"/>
+                                        </li>
+                                        <li>
+                                            <h1 class="companyname">Greystone Data Technology</h1>
+                                        </li>
+                                    </ul>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-right">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="solutions.html" class="dropdown-toggle" data-toggle="dropdown"><span>Solutions</span><i class="fa fa-angle-down downs" aria-hidden="true"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="solutions.html">Mobile App</a>
+                                        </li>
+                                        <li>
+                                            <a href="solutions.html">Cloud</a>
+                                        </li>
+                                        <li>
+                                            <a href="solutions.html">Retail Environment</a>
+                                        </li>
+                                        <li>
+                                            <a href="solutions.html">Call Center</a>
+                                        </li>
+                                        <li>
+                                            <a href="solutions.html">Repair</a>
+                                        </li>
+                                        <li>
+                                            <a href="solutions.html">Warehouse</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="scroll"><a href="#">Company</a></li>
+                                <li class="scroll"><a href="#">Contacts</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </nav><!--/nav-->
+                </header>
+                <!--S breadcrumb-->
+                <section class="breadcrumbs">
+                    <ul class="page-breadcrumb breadcrumb">
+                        <li>
+                            <i class="fa fa-home f20"></i>
+                            <i class="fa fa-angle-right f18 mleft10"></i>
+                            <a class="mleft10" href="solutions.html">
+                                Solutions
+                            </a>
+                            <!---->
+                        </li>
+                    </ul>
+                </section>
+                <!--E breadcrumb-->
+                <!--S Layer layera-->
+                <section class="solutions-layera">
+                    <div class="container">
+                        <ul>
+                            <li>
+                                <h1 class="f80">
+                                    Mobile Life Cycle
+                                </h1>
+                            </li>
+                            <li>
+                                <h1 class="f30">
+                                    Doing Great Things
+                                </h1>
+                            </li>
+                            <li>
+                                <div class="border-layera"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="clear"></div>
+                <section class="cover solutions-layerb" style="background:url(img/solution_layerb.png)">
+                    <div class="container">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <div class="col-md-12 text-left mtop80">
+                                <h1 class="f65 ff14">App</h1>
+                            </div>
+                            <div class="col-md-12 text-left mtop30">
+                                <span class="f20 lh28 ff13">
+                                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                </span>
+                            </div>
+                            <div class="col-md-12 text-left">
+                                <a href="">
+                                    <div class="solution_layerb_mores">
+                                        Learn Mores
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="clear"></div>
+                <!--S layerc-->
+                <section class="cover solutions-layerc" style="background:url(img/solution_layerc.png)">
+                    <div class="container">
+                        <div class="col-md-6">
+                            <div class="col-md-12 text-left mtop80">
+                                <h1 class="f65 ff14">Web (Cloud Services)</h1>
+                            </div>
+                            <div class="col-md-12 text-left mtop30">
+                                <span class="f20 lh28 ff13">
+                                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                </span>
+                            </div>
+                            <div class="col-md-12 text-left">
+                                <a href="">
+                                    <div class="solution_layerb_mores">
+                                        Learn Mores
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </section><!--E layer c-->
+                <!--S layer d-->
+                <section class="cover solutions-layerd" style="background:url(img/solution_layerd.png)">
+                    <div class="container">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <div class="col-md-12 text-left mtop80">
+                                <h1 class="f65 ff14">Retail Environment</h1>
+                            </div>
+                            <div class="col-md-12 text-left mtop30">
+                                <span class="f20 lh28 ff13">
+                                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                </span>
+                            </div>
+                            <div class="col-md-12 text-left">
+                                <a href="">
+                                    <div class="solution_layerb_mores">
+                                        Learn Mores
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section><!--E layer d-->
+                <div class="clear"></div>
+                <!--S layer e-->
+                <section class="cover solutions-layere" style="background:url(img/solution_layere.png)">
+                    <div class="container">
+                        <div class="col-md-6">
+                            <div class="col-md-12 text-left mtop80">
+                                <h1 class="f65 ff14">Call Center</h1>
+                            </div>
+                            <div class="col-md-12 text-left mtop30">
+                                <span class="f20 lh28 ff13">
+                                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                </span>
+                            </div>
+                            <div class="col-md-12 text-left">
+                                <a href="">
+                                    <div class="solution_layerb_mores">
+                                        Learn Mores
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </section><!--E layer e-->
+                <!--S layer f-->
+                <section class="cover solutions-layerf" style="background:url(img/solution_layerf.png)">
+                    <div class="container">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <div class="col-md-12 text-left mtop80">
+                                <h1 class="f65 ff14">Repair</h1>
+                            </div>
+                            <div class="col-md-12 text-left mtop30">
+                                <span class="f20 lh28 ff13">
+                                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                </span>
+                            </div>
+                            <div class="col-md-12 text-left">
+                                <a href="">
+                                    <div class="solution_layerb_mores">
+                                        Learn Mores
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section><!--E layer f-->
+                <div class="clear"></div>
+                <!--S layer g-->
+                <section class="cover solutions-layerg" style="background:url(img/solution_layerg.png)">
+                    <div class="container">
+                        <div class="col-md-6">
+                            <div class="col-md-12 text-left mtop80">
+                                <h1 class="f65 ff14 ws">Warehouse (Processing)</h1>
+                            </div>
+                            <div class="col-md-12 text-left mtop30">
+                                <span class="f20 lh28 ff13">
+                                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                                </span>
+                            </div>
+                            <div class="col-md-12 text-left">
+                                <a href="">
+                                    <div class="solution_layerb_mores">
+                                        Learn Mores
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </section><!--E layer g-->
+                <div class="clear"></div>
+                <!--S layer h-->
+                <section class="cover solutions-layerh" >
+                    <div class="container mtop100">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul>
+                                    <li>
+                                        <!--S Mobile App-->
+                                        <div class="Mobile_App layerh-icon">
+                                            <img src="img/Mobile_App.png" />
+                                        </div>
+                                        <h2 class="f20 ff13 layerh-title">
+                                            Mobile App
+                                        </h2>
+                                        <!--E Mobile App-->
+                                    </li>
+                                    <li>
+                                        <!--S Cloud-->
+                                        <div class="Cloud layerh-icon">
+                                            <img src="img/Cloud.png" />
+                                        </div>
+                                        <h2 class="f20 ff13 layerh-title">
+                                            Cloud
+                                        </h2>
+                                        <!--E Cloud-->
+                                    </li>
+                                    <li>
+                                        <!--S Retail Environment-->
+                                        <div class="Retail_Environment layerh-icon">
+                                            <img src="img/Retail_Environment.png" />
+                                        </div>
+                                        <h2 class="f20 ff13 layerh-title">
+                                            Retail Environment
+                                        </h2>
+                                        <!--E Retail Environment-->
+                                    </li>
+                                    <li>
+                                        <!--S Call - Center-->
+                                        <div class="Call_Center layerh-icon">
+                                            <img src="img/Call_Center.png" />
+                                        </div>
+                                        <h2 class="f20 ff13 layerh-title">
+                                            Call - Center
+                                        </h2>
+                                        <!--E Call - Center-->
+                                    </li>
+                                    <li>
+                                        <!--S Repair Facility-->
+                                        <div class="Repair_Facility layerh-icon">
+                                            <img src="img/Repair_Facility.png" />
+                                        </div>
+                                        <h2 class="f20 ff13 layerh-title">
+                                            Repair Facility
+                                        </h2>
+                                        <!--E Repair Facility-->
+                                    </li>
+                                    <li>
+                                        <!--S Repair Processing-->
+                                        <div class="Processing layerh-icon">
+                                            <img src="img/Processing.png" />
+                                        </div>
+                                        <h2 class="f20 ff13 layerh-title">
+                                            Processing
+                                        </h2>
+                                        <!--E Repair Processing-->
+                                    </li>
+                                </ul>
+                                <ul class="layerh-ul-line">
+                                    <li class="layerh-line"></li>
+                                    <li class="layerh-line"></li>
+                                    <li class="layerh-line"></li>
+                                    <li class="layerh-line"></li>
+                                    <li class="layerh-line"></li>
+                                    <li class="layerh-line"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section><!--E Layer h-->
+                <div class="clear"></div>
+                <!--S Layer i-->
+                <section class="cover solutions-layeri">
+                    <div class="container">
+                        <div class="row">
+                            <div class="line cover"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mtop50">
+                                <h1 class="f40 ff9">Engineering Technology for over 20 years</h1>
+                            </div>
+                            <div class="col-md-12 mtop30">
+                                <div class="col-md-6 text-left">
+                                    <span class="f20 lh28 ff13">
+                                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                                    </span>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="img/chart.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--E Layer i-->
+                <div class="clear"></div>
+                <!--S Layer Content 2-->
+                <section class="bgfix content2">
+                    <div class="container mtop50 mbtom50">
+                        <div class="row">
+                            <a class="pointer" href="#">
+                                <figure>
+                                    <img src="img/bg-content.png" alt="Macaque in the trees"/>
+                                    <figcaption class="customizable">
+                                        <ul >
+                                            <li class="f30 ff9">
+                                                Contact Us
+                                            </li>
+                                            <li class="f20 ff9">
+                                                Let’s work together
+                                            </li>
+                                        </ul>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <div class="clear"></div>
+                <!--S Layer footer-->
+                <footer class="footer cover" >
+                    <div class="container">
+                        <div class="row text-left">
+                            <div class="col-md-6">
+                                <ul class="menu-foter-left">
+                                    <li><a href="#">
+                                            <div class="face">
+                                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                            </div>
+                                        </a></li>
+                                    <li>
+                                        <div class="google">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="twitter">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="menu-foter">
+                                    <li><a href="#">Solutions</a></li>
+                                    <li><img class="ll" src="img/ll.png"/></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><img class="ll" src="img/ll.png"/></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <div class="clear"></div>
+                <!--E Layer footer-->
+            </section>
+        </center>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

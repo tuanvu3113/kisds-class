@@ -1,0 +1,48 @@
+﻿select.radio_select {
+   -moz-appearance: none;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 34px;
+    margin: -23px 0 0;
+    outline: medium none;
+    padding: 3px;
+}
+.label_select {position:relative; border:none !important}
+.label_select:after {
+    color: #aaa;
+    content: ">";
+    font: 15px "Consolas",monospace;
+    padding: 0 0 2px;
+    pointer-events: none;
+    position: absolute;
+    right: 6px;
+    top: 24px;
+    transform: rotate(90deg);
+    z-index: 10;
+}
+.label_select:before {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    background: none repeat scroll 0 0 #fff;
+    border-color: #fff #fff #fff #e5e5e5 !important;
+    border-image: none !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    content: "";
+    display: block;
+    height: 32px;
+    margin-right: -5px;
+    margin-top: 21px;
+    pointer-events: none;
+    position: absolute;
+    right: 6px;
+    top: -3px;
+    width: 20px;
+    z-index: 9;
+}

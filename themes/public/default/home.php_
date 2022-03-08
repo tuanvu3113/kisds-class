@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>MD SOLUTION</title>
+        <meta name="keywords" content="" />
+        <meta name="Description" content="" />
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="/Images/Icons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/Images/Icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/Images/Icons/favicon-16x16.png" /> -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <!--<meta name="format-detection" content="telephone=no">-->
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no" />
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+
+        <!--JS Framework Start-->
+        <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAWXH4d76M9WHvvP60WwnD3F532SoToxkE&v=3&amp;sensor=false"></script> -->
+        <script type="text/javascript" src="../Js/Plugins/jquery-2.2.0.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugins/bootstrap.min.css" />
+        <script type="text/javascript" src="/Js/Plugins/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/Js/Plugins/bootstrap-debugger.js"></script>
+        <script type="text/javascript" src="/Js/Plugins/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="/Js/Plugins/jquery.nicescroll.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugins/jquery-ui.min.css" />
+        <script type="text/javascript" src="/Js/Plugins/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/Js/Plugins/jquery.cookie.js"></script>
+        <script type="text/javascript" src="/Js/Plugins/jquery.queryloader2.min.js"></script>
+
+        <script type="text/javascript" src="/Js/Plugins/jquery.easing.js"></script>
+        <script type="text/javascript" src="/Js/Plugins/jquery.mousewheel.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugins/jquery.fullPage.css" />
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugins/backTop.css" />
+        <script type="text/javascript" src="/Js/Plugins/jquery.fullPage.min.js"></script>
+        <script type="text/javascript" src="/Js/Plugins/jquery.malihu.PageScroll2id.min.js"></script>
+
+        <script type="text/javascript" src="/Js/Plugins/jquery.lazyload.min.js"></script>
+        <!--JS Framework END-->
+        <!--Megapixel Start-->
+        <script type="text/javascript" src="/Js/megapixel.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/Styles/template.css"/>
+        <link rel="stylesheet" type="text/css" href="/Styles/menu.css"/>
+        <link rel="stylesheet" type="text/css" href="/Styles/pages.css"/>
+        <link rel="stylesheet" type="text/css"href="/plugins/multipleselect/multiple-select.css"/>
+        <script src="/Plugins/multipleselect/optimize.select.js"></script>
+        <script src="/Plugins/multipleselect/optimize.js"></script>
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugins/loadings.css"/>
+        <!--Megapixel Start-->
+        <!--Plugin Start-->
+
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugins/animate.css"/>
+        <script type="text/javascript" src="/Js/Plugins/wow.min.js"></script>
+        <link href="/Plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+        <script type="text/javascript" src="/Js/Plugins/jquery.transit.min.js"></script>
+        <!-- <script type="text/javascript" src="/Js/Plugins/jquery.simpleWeather.min.js"></script> -->
+        <script type="text/javascript" src="/Js/Plugins/timezonedb.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugins/jquery.fancybox.css"/>
+        <script type="text/javascript" src="/Js/Plugins/jquery.fancybox.js"></script>
+        <!-- <script type="text/javascript" src="/Styles/Plugins/FancyBox/helpers/jquery.fancybox-thumbsER.js"></script> -->
+        <!-- <link rel="stylesheet" type="text/css" href="/Styles/Plugins/FancyBox/helpers/jquery.fancybox-thumbsER.css" media="screen"/> -->
+        <!--Plugin END-->
+        <!--Nivo Slider Start-->
+        <script type="text/javascript" src="/Js/Plugins/jquery.nivo.slider.pack.js"></script>
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugins/nivoslider.css"/>
+        <!-- <link rel="stylesheet" type="text/css" href="/Styles/Plugins/nivoSlider/default/default.css"/> -->
+        <!--Nivo Slider END-->
+        <script type="text/javascript">
+            var baseUrl = '/';
+        </script>
+        <!-- <script type="text/javascript" src="/Js/Plugins/markerwithlabel_packed.js"></script> -->
+        <!-- <script type="text/javascript" src="/Js/googlemap.js"></script> -->
+        <link rel="stylesheet" type="text/css" href="/Styles/contact.css"/>
+        <script type="text/javascript" src="/Js/contact.js"></script>
+        <link rel="stylesheet" type="text/css" href="/Styles/responsive.css"/>
+        <script type="text/javascript">
+            $(window).scroll(function () {
+                var ws = $(this).scrollTop();
+                if (ws > 60) {
+                    $('.navbar').addClass('scrollnavbar');
+                }
+                else {
+                    $('.navbar').removeClass('scrollnavbar');
+                }
+            });
+            $(document).ready( function() {
+                $('#backTop').backTop({
+                    'position' : 400,
+                    'speed' : 500,
+                    'color' : 'red',
+                });
+            });
+        </script>
+        <style type="text/css">
+            html, body {
+                font-size: 15px !important;
+                font-family: 'Roboto', sans-serif !important;
+                max-width: 100%;
+                max-height: 100%;
+            }
+            .home_bg {
+                position: relative;
+                float: left;
+                width: 100%;
+                overflow: hidden;
+                background-size: cover;
+            }
+            .news_item2{
+                height: 300px;
+                background: #fff;
+            }
+            .container-news{
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            /*SHOW MOBIE chieu ngang*/
+            @media (max-width: 900px){
+                .container-news{
+                }
+                .home_page_bg{
+                    height: 100vh !important;
+                }
+            }
+            /*SHOW MOBIE chieu doc*/
+            @media screen and (max-width: 600px) {
+                .container-news{
+                }
+                .home_page_bg{
+                    height: 100vh !important;
+                }
+            }
+            .nivo-main-image, .project_content_bg{
+                height: 98vh !important;
+            }
+            .nivo-directionNav, .nivo-control {
+                display: none;
+            }
+            figure.snip1083 * {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+            }
+            figure.snip1083 img {
+                max-width: 100%;
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+
+            figure.snip1083:hover img,
+            figure.snip1083.hover img {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            .contact_txt_bg{
+                height: 30px !important;
+                padding: 3px !important;
+            }
+        </style>
+    </head>
+    <body>
+        <?= $this->load->inc('menu'); ?>
+        <?= $content; ?>
+        <?= $this->load->inc('footer'); ?>
+    </body>
+    <footer>
+        <a style="margin-bottom: 65px !important;opacity: 0.7;" id='backTop'>Back To Top</a>
+        <script type="text/javascript" src="/Js/Plugins/jquery.backTop.js"></script>
+    </footer>
+</html>

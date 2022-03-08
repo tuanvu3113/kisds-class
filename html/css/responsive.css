@@ -1,0 +1,49 @@
+/* iPads (portrait and landscape) ----------- */
+@media only screen (max-device-width : 1024px) {
+/* Styles */
+}
+@media (max-width:768px){
+	.hpc{
+		display:none;	
+	}
+	.hmobi{
+		display:block;	
+	}
+	.logo{
+		margin-top:-5px;
+	}
+	.companyname{
+		display:none !important;	
+	}
+	.banner-content{
+		display:none;
+	}
+	.sologan{
+		margin-top:100px;	
+	}
+	.sologan li{
+		line-height:42px;
+		font-size:30px;
+		font-family:ff11;
+	}
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-device-width : 480px) {
+	.sologan{
+		margin-top:100px;	
+	}
+	.sologan li{
+		line-height:37px;
+		font-size:26px;
+		font-family:ff11;
+	}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen (min-width : 321px) {
+	
+}
+/* Smartphones (portrait) ----------- */
+@media only screen (max-width : 320px) {
+/* Styles */
+}
+ 

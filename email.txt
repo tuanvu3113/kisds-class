@@ -1,0 +1,27 @@
+function saveContact() {
+        $fdata = $this->input->post('fdata');
+
+        $this->load->library('email');
+        $config['protocol'] = "smtp";
+        $config['smtp_host'] = "ssl://smtp.gmail.com";
+        $config['smtp_port'] = "465";
+        $config['smtp_user'] = "greystonedatasystem@gmail.com";
+        $config['smtp_pass'] = "tuleqcxipabrjcam";
+        $config['charset'] = "utf-8";
+        $config['mailtype'] = "html";
+        $config['newline'] = "\r\n";
+        $config['validate'] = TRUE;
+
+        $this->email->initialize($config);
+
+        $this->email->from($fdata['email'], $fdata['name']);
+        $this->email->to('vunguyen@greystonevn.com');
+        $this->email->cc('dinhlam@greystonevn.com');
+        $this->email->reply_to($fdata['email'], $fdata['name']);
+        $this->email->subject($fdata['subject']);
+        $this->email->message($fdata['content']);
+        $this->email->send();
+
+        $result = $this->model->saveContact($fdata);
+        echo $result;
+    }

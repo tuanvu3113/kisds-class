@@ -1,0 +1,39 @@
+﻿
+/*Begin: Toolip hiển thị*/
+
+div#vtip {
+    display: none;
+    position: absolute;
+    padding: 5px 10px;
+    left: 5px;
+    background-color: #EDF2EE;
+    border: 1px solid #B5B8C8;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    z-index: 9999;    
+   
+}
+
+/*************chiều dài tối đa tấm hình****************/
+div#vtip img
+{
+     max-height:500px; 
+}
+
+div#vtip #vtipArrow {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+
+/*div#vtip span{
+    width: 20px;
+    height: 20px;
+    background:red;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -20px;
+}*/
+/*End: Toolip hiển thị*/
+
